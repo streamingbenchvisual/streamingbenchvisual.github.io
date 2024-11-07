@@ -1,0 +1,107 @@
+[
+    {
+        "task_type": "Casual Reasoning",
+        "time": "[0:05:54 - 0:06:24]",
+        "questions": [
+            {
+                "task_type": "Casual Reasoning",
+                "question": "Why does the man offer his underwear to the woman as a replacement bag?",
+                "time_stamp": "00:06:00",
+                "answer": "C",
+                "options": [
+                    "A. Because the woman forgot to bring her shopping bag.",
+                    "B. Because the man is trying to make the woman laugh with a joke.",
+                    "C. Because the lady's shopping bag is torn.",
+                    "D. Because the woman mentioned she needed something to carry her things in."
+                ],
+                "required_ability": "episodic memory"
+            }
+        ],
+        "video_categories": "kids cartoon",
+        "video_path": "Causal Reasoning_4.mp4"
+    },
+    {
+        "task_type": "Casual Reasoning",
+        "time": "[0:01:58 - 0:02:28]",
+        "questions": [
+            {
+                "task_type": "Casual Reasoning",
+                "question": "Why does this cat glare viciously at the person in black?",
+                "time_stamp": "00:02:23",
+                "answer": "C",
+                "options": [
+                    "A. Because the person in black took away the cat's favorite toy.",
+                    "B. Because the person in black is blocking the cat's path.",
+                    "C. Because the man in black just stepped on this cat.",
+                    "D. Because the person in black made a loud noise that startled the cat."
+                ],
+                "required_ability": "episodic memory"
+            }
+        ],
+        "video_categories": "kids cartoon",
+        "video_path": "Causal Reasoning_4.mp4"
+    },
+    {
+        "task_type": "Casual Reasoning",
+        "time": "[0:00:00 - 0:00:30]",
+        "questions": [
+            {
+                "task_type": "Casual Reasoning",
+                "question": "Why can thieves enter the room without being detected?",
+                "time_stamp": "00:02:04",
+                "answer": "B",
+                "options": [
+                    "A. Because the security system is broken.",
+                    "B. Because the masters have all fallen asleep.",
+                    "C. Because the door was accidentally left unlocked.",
+                    "D. Because the thieves are using a special device to stay silent."
+                ],
+                "required_ability": "episodic memory"
+            }
+        ],
+        "video_categories": "kids cartoon",
+        "video_path": "Causal Reasoning_4.mp4"
+    },
+    {
+        "task_type": "Casual Reasoning",
+        "time": "[0:07:52 - 0:08:22]",
+        "questions": [
+            {
+                "task_type": "Casual Reasoning",
+                "question": "Why does the character hide behind structures on the roof?",
+                "time_stamp": "00:07:57 - 00:08:18",
+                "answer": "C",
+                "options": [
+                    "A. Because he heard a loud noise and got scared.",
+                    "B. Because he noticed a helicopter approaching and wanted to stay hidden.",
+                    "C. Because the thief in black clothes spotted him and chased after him.",
+                    "D. Because he saw the roof starting to collapse and needed to find safety."
+                ],
+                "required_ability": "episodic memory"
+            }
+        ],
+        "video_categories": "kids cartoon",
+        "video_path": "Causal Reasoning_4.mp4"
+    },
+    {
+        "task_type": "Casual Reasoning",
+        "time": "[0:03:56 - 0:04:26]",
+        "questions": [
+            {
+                "task_type": "Casual Reasoning",
+                "question": "Why does the person start searching through his wardrobe?",
+                "time_stamp": "00:04:07",
+                "answer": "B",
+                "options": [
+                    "A. Because he wants to clean his room.",
+                    "B. Because he is checking if he has lost anything.",
+                    "C. Because he is preparing to leave the house.",
+                    "D. Because he cannot find his wallet."
+                ],
+                "required_ability": "episodic memory"
+            }
+        ],
+        "video_categories": "kids cartoon",
+        "video_path": "Causal Reasoning_4.mp4"
+    }
+]

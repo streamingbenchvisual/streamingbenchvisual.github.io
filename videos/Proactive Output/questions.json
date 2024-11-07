@@ -1,0 +1,82 @@
+[
+    {
+        "time": "[0:00:00 - 0:01:00]",
+        "questions": [
+            {
+                "task_type": "Active Output",
+                "question": "When the number 20 appears in the middle of the sun in the video, output \"20\"",
+                "time_stamp": "00:00:26",
+                "ground_truth_time_stamp": "00:01:02",
+                "ground_truth_output": "20",
+                "temporal_clue_type": "Subsequent",
+                "frames_required": "single",
+                "question_id": "Active Output_sample_1_1"
+            }
+        ],
+        "video_categories": "kid's cartoon"
+    },
+    {
+        "time": "[0:01:00 - 0:02:00]",
+        "questions": [
+            {
+                "task_type": "Active Output",
+                "question": "When the number 20 in red appears in the video, output \"20\".",
+                "time_stamp": "00:01:20",
+                "ground_truth_time_stamp": "00:02:04",
+                "ground_truth_output": "20",
+                "temporal_clue_type": "Subsequent",
+                "frames_required": "single",
+                "question_id": "Active Output_sample_1_2"
+            }
+        ],
+        "video_categories": "kid's cartoon"
+    },
+    {
+        "time": "[0:02:00 - 0:03:00]",
+        "questions": [
+            {
+                "task_type": "Active Output",
+                "question": "When 7 potatoes appear in the video, output \"7\".",
+                "time_stamp": "00:02:56",
+                "ground_truth_time_stamp": "00:03:02",
+                "ground_truth_output": "7",
+                "temporal_clue_type": "Subsequent",
+                "frames_required": "single",
+                "question_id": "Active Output_sample_1_3"
+            }
+        ],
+        "video_categories": "kid's cartoon"
+    },
+    {
+        "time": "[0:06:00 - 0:07:00]",
+        "questions": [
+            {
+                "task_type": "Active Output",
+                "question": "When there are only 5 teddy bears left on the bed, output \"5\".",
+                "time_stamp": "00:06:47",
+                "ground_truth_time_stamp": "00:07:10",
+                "ground_truth_output": "5",
+                "temporal_clue_type": "Subsequent",
+                "frames_required": "single",
+                "question_id": "Active Output_sample_1_4"
+            }
+        ],
+        "video_categories": "kid's cartoon"
+    },
+    {
+        "time": "[0:10:00 - 0:11:00]",
+        "questions": [
+            {
+                "task_type": "Active Output",
+                "question": "When a total of 5 cartoon characters wearing hats have appeared in the video, output \"5.\"",
+                "time_stamp": "00:10:45",
+                "ground_truth_time_stamp": "00:10:52",
+                "ground_truth_output": "5",
+                "temporal_clue_type": "Subsequent",
+                "frames_required": "single",
+                "question_id": "Active Output_sample_1_5"
+            }
+        ],
+        "video_categories": "kid's cartoon"
+    }
+]

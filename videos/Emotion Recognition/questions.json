@@ -1,0 +1,82 @@
+[
+    {
+        "task_type": "Emotion Recognition",
+        "question": "What is the current emotion of the man wearing a black shirt with dreadlocks on the left side of the video?",
+        "time_stamp": "00:00:51",
+        "answer": "B",
+        "options": [
+            "A. He is sad.",
+            "B. He is happy.",
+            "C. He is angry.",
+            "D. He is calm."
+        ],
+        "temporal_clue_type": "Concurrent",
+        "question_id": "Emotion Recognition_sample_8_1",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "I apologize, but I do not actually have access to any video or images related to this question. Without being able to view the video content, I cannot determine the emotion of the man described or select the correct answer option. I would need to be able to see the relevant visual information in order to properly analyze and respond to this type of video-based question. If you're able to provide the video or images, I'd be happy to take a look and try to answer the question then."
+    },
+    {
+        "task_type": "Emotion Recognition",
+        "question": "What is the current emotion of the man wearing a smoky gray suit with a black tie adorned with fine stripes on the right side of the video, and what caused his emotional changes?",
+        "time_stamp": "00:02:00",
+        "answer": "B",
+        "options": [
+            "A. He was calm because the story told by the man with dreadlocks was boring.",
+            "B. He was surprised and delighted because the story told by the man with dreadlocks was well-told and interesting.",
+            "C. He was angry because the story told by the man with dreadlocks was made up.",
+            "D. He was confused because he couldn't understand what the man with dreadlocks was saying."
+        ],
+        "temporal_clue_type": "Concurrent",
+        "question_id": "Emotion Recognition_sample_8_2",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Emotion Recognition",
+        "question": "What is the current emotion of the man wearing a black shirt with dreadlocks on the left side of the video, and what caused his emotional changes?",
+        "time_stamp": "00:03:14",
+        "answer": "B",
+        "options": [
+            "A. He was speechless because he thought the question asked by the man in the smoky gray suit was absurd.",
+            "B. He smiled because he found the question asked by the man in the smoky gray suit amusing.",
+            "C. He was angry because he felt the question asked by the man in the smoky gray suit was offensive.",
+            "D. He was calm because he didn't care about the question asked by the man in the smoky gray suit."
+        ],
+        "temporal_clue_type": "Concurrent",
+        "question_id": "Emotion Recognition_sample_8_3",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Emotion Recognition",
+        "question": "What was the emotion before and after the emotional change of the man wearing a black shirt with dreadlocks of the video?",
+        "time_stamp": "00:04:22",
+        "answer": "D",
+        "options": [
+            "A. He changed from being calm to being angry.",
+            "B. He changed from smiling to being angry.",
+            "C. He changed from smiling to crying sadly.",
+            "D. He transitioned from smiling to a state of calmness."
+        ],
+        "temporal_clue_type": "Concurrent",
+        "question_id": "Emotion Recognition_sample_8_4",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "D"
+    },
+    {
+        "task_type": "Emotion Recognition",
+        "question": "What is the current emotion of the man wearing a black shirt with dreadlocks on the left side of the video, and what caused his emotional changes?",
+        "time_stamp": "00:08:29",
+        "answer": "B",
+        "options": [
+            "A. He was excited because he enjoyed acting.",
+            "B. He was calm because he needed to get into character and say a line for the play.",
+            "C. He was angry because the man in the smoky gray suit asked him to act.",
+            "D. He was sad because he didn't like acting."
+        ],
+        "temporal_clue_type": "Concurrent",
+        "question_id": "Emotion Recognition_sample_8_5",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    }
+]

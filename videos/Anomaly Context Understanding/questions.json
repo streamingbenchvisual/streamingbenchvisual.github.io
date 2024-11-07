@@ -1,0 +1,102 @@
+[
+    {
+        "task_type": "Anomaly Recognition",
+        "question": "What unusual event just occurred?",
+        "time_stamp": "00:00:14",
+        "answer": "A",
+        "options": [
+            "A. The little boy turned his body to the left, turned his head down, bent slightly, released his right hand and threw it into the air. The white handkerchief in his right hand disappeared.",
+            "B. The little boy raised his hands to his waist and put a white handkerchief into his right hand with his left hand.",
+            "C. The little boy turned his body to the left, turned his head down, bent slightly, released his right hand and threw it into the air. The red handkerchief in his right hand disappeared.",
+            "D. The little boy raised his clenched right hand, faced straight ahead, and spoke with a serious expression."
+        ],
+        "clue_start_time": "00:00:10",
+        "clue_end_time": "00:00:14",
+        "recallable_util": "None",
+        "modified": "False",
+        "frames_required": "multiple",
+        "temporal_clue_type": "Prior",
+        "question_id": "Anomaly Recognition_sample_2_1",
+        "Claude-3.5 Sonnet": "A"
+    },
+    {
+        "task_type": "Anomaly Recognition",
+        "question": "What unusual event just occurred?",
+        "time_stamp": "00:01:39",
+        "answer": "D",
+        "options": [
+            "A. The little boy turned his body to the left, turned his head down, bent slightly, released his right hand and threw it into the air. The white handkerchief in his right hand disappeared.",
+            "B. The little boy reached for the bottom of the paper cup with his right hand and pulled it down. The whole white paper cup turned into a long string of strips.",
+            "C. The red playing card with a hole in the little boy's left hand became a round black card.",
+            "D. The little boy reached for the bottom of the paper cup with his left hand and pulled it down. The whole white paper cup turned into a long string of strips."
+        ],
+        "clue_start_time": "00:01:20",
+        "clue_end_time": "00:01:39",
+        "recallable_util": "None",
+        "modified": "False",
+        "frames_required": "multiple",
+        "temporal_clue_type": "Prior",
+        "question_id": "Anomaly Recognition_sample_2_2",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Anomaly Recognition",
+        "question": "What unusual event just occurred?",
+        "time_stamp": "00:02:19",
+        "answer": "A",
+        "options": [
+            "A. The little boy unscrewed a white bulb from the lamp and milk poured out of the bulb.",
+            "B. The little boy turned his body to the left, turned his head down, bent slightly, released his right hand and threw it into the air. The white handkerchief in his right hand disappeared.",
+            "C. The little boy unscrewed a black bulb from the lamp, and the coke poured out of the bulb.",
+            "D. The little boy reached for the bottom of the paper cup with his left hand and pulled it down. The whole white paper cup turned into a long string of strips."
+        ],
+        "clue_start_time": "00:02:00",
+        "clue_end_time": "00:02:19",
+        "recallable_util": "None",
+        "modified": "False",
+        "frames_required": "multiple",
+        "temporal_clue_type": "Prior",
+        "question_id": "Anomaly Recognition_sample_2_3",
+        "Claude-3.5 Sonnet": "D"
+    },
+    {
+        "task_type": "Anomaly Recognition",
+        "question": "What unusual event just occurred?",
+        "time_stamp": "00:03:35",
+        "answer": "B",
+        "options": [
+            "A. The female guest unscrews the candy jar according to what the little boy said, and the number 2000 she casually said appears on the slip of paper inside the candy jar.",
+            "B. The male guest unscrews the candy jar according to what the little boy said, and the number 2500 he casually said appears on the slip of paper inside the candy jar.",
+            "C. The little boy unscrewed a white bulb from the lamp and milk poured out of the bulb.",
+            "D. The little boy turned his body to the left, turned his head down, bent slightly, released his right hand and threw it into the air. The white handkerchief in his right hand disappeared."
+        ],
+        "clue_start_time": "00:03:16",
+        "clue_end_time": "00:03:35",
+        "recallable_util": "None",
+        "modified": "False",
+        "frames_required": "multiple",
+        "temporal_clue_type": "Prior",
+        "question_id": "Anomaly Recognition_sample_2_4",
+        "Claude-3.5 Sonnet": "C"
+    },
+    {
+        "task_type": "Anomaly Recognition",
+        "question": "What unusual event just occurred?",
+        "time_stamp": "00:04:39",
+        "answer": "C",
+        "options": [
+            "A. The little boy unscrewed a white bulb from the lamp and milk poured out of the bulb.",
+            "B. The little boy reached for the bottom of the paper cup with his left hand and pulled it down. The whole white paper cup turned into a long string of strips.",
+            "C. The male guest randomly selected a playing card and said the number, a few seconds later, he opened the playing card in his hand, there appeared the seven of diamonds just said.",
+            "D. The female guest randomly selected a playing card and said the number, a few seconds later, he turned over the playing card in his hand, and there appeared the eight of diamonds just said."
+        ],
+        "clue_start_time": "00:04:20",
+        "clue_end_time": "00:04:39",
+        "recallable_util": "All",
+        "modified": "False",
+        "frames_required": "multiple",
+        "temporal_clue_type": "Prior",
+        "question_id": "Anomaly Recognition_sample_2_5",
+        "Claude-3.5 Sonnet": "A"
+    }
+]

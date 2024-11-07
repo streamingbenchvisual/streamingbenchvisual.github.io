@@ -1,0 +1,82 @@
+[
+    {
+        "task_type": "Multimodal Alignment",
+        "question": "Describe the correspond scene when a man said 'Thank you.'.",
+        "time_stamp": "00:02:03",
+        "answer": "B",
+        "options": [
+            "A. In the living room, the man in yellow is talking to the man in blue on the left.",
+            "B. In one room, the person on the left puts down his water glass and talks, while the person on the right sits at a table and listens.",
+            "C. Three men are standing around the refrigerator, all checking it carefully.",
+            "D. In the cafeteria, three men are sitting at a table with a lot of food and drinks."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Multimodal Alignment_sample_1_1",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "A"
+    },
+    {
+        "task_type": "Multimodal Alignment",
+        "question": "Describe the correspond scene when a man said 'I know, I just need you to stop talking.'.",
+        "time_stamp": "00:03:18",
+        "answer": "B",
+        "options": [
+            "A. In one room, the person on the left puts down his water glass and talks, while the person on the right sits at a table and listens.",
+            "B. In a bar, a blonde woman with a beer bottle in her hand talks to a man in a red sweatshirt and glasses next to her.",
+            "C. Three men are standing around the refrigerator, all checking it carefully.",
+            "D. In the cafeteria, three men are sitting at a table with a lot of food and drinks."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Multimodal Alignment_sample_1_2",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Multimodal Alignment",
+        "question": "Describe the correspond scene when a man said 'Come in.'.",
+        "time_stamp": "00:04:58",
+        "answer": "C",
+        "options": [
+            "A. In one room, the person on the left puts down his water glass and talks, while the person on the right sits at a table and listens.",
+            "B. In a bar, a blonde woman with a beer bottle in her hand talks to a man in a red sweatshirt and glasses next to her.",
+            "C. At the bedroom door, a man in his pajamas with a glowing green light in his hand was inviting the woman in.",
+            "D. In the cafeteria, three men are sitting at a table with a lot of food and drinks."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Multimodal Alignment_sample_1_3",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "C"
+    },
+    {
+        "task_type": "Multimodal Alignment",
+        "question": "Describe the correspond scene when a man said 'You can try, but you never catch me.'.",
+        "time_stamp": "00:05:42",
+        "answer": "D",
+        "options": [
+            "A. In one room, the person on the left puts down his water glass and talks, while the person on the right sits at a table and listens.",
+            "B. In a bar, a blonde woman with a beer bottle in her hand talks to a man in a red sweatshirt and glasses next to her.",
+            "C. At the bedroom door, a man in his pajamas with a glowing green light in his hand was inviting the woman in.",
+            "D. A black hair, wearing a black man standing in the sea of colorful plastic ball inside to speak right."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Multimodal Alignment_sample_1_4",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "D"
+    },
+    {
+        "task_type": "Multimodal Alignment",
+        "question": "Describe the correspond scene when a man said 'would you please turn the shirt off?'.",
+        "time_stamp": "00:06:34",
+        "answer": "B",
+        "options": [
+            "A. In a bar, a blonde woman with a beer bottle in her hand talks to a man in a red sweatshirt and glasses next to her.",
+            "B. At the comic-themed store, a bespectacled man, with a resigned expression, talks to a man with a red horn strapped to his chest.",
+            "C. At the bedroom door, a man in his pajamas with a glowing green light in his hand was inviting the woman in.",
+            "D. A black hair, wearing a black man standing in the sea of colorful plastic ball inside to speak right."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Multimodal Alignment_sample_1_5",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    }
+]

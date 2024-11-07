@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Display Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边栏 -->
+        <div class="video-sidebar">
+            <h3>Filter Videos</h3>
+            <div class="category-container">
+                <!-- 主类别 1 -->
+                <div class="main-category">
+                    <div class="category-header">
+                        <span>Real-Time Visual Understanding</span>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="sub-category-container">
+                        <span class="filter-tag" data-attribute="Attribute Perception">Attribute Perception</span>
+                        <span class="filter-tag" data-attribute="Object Perception">Object Perception</span>
+                        <span class="filter-tag" data-attribute="Action Perception">Action Perception</span>
+                        <span class="filter-tag" data-attribute="Event Understanding">Event Understanding</span>
+                        <span class="filter-tag" data-attribute="Causal Reasoning">Causal Reasoning</span>
+                        <span class="filter-tag" data-attribute="Prospective Reasoning">Prospective Reasoning</span>
+                        <span class="filter-tag" data-attribute="Counting">Counting</span>
+                        <span class="filter-tag" data-attribute="Text-Rich Understanding">Text-Rich Understanding</span>
+                        <span class="filter-tag" data-attribute="Clips Summarization">Clips Summarization</span>
+                        <span class="filter-tag" data-attribute="Spatial Understanding">Spatial Understanding</span>
+                    </div>
+                </div>
+                <!-- 主类别 2 -->
+                <div class="main-category">
+                    <div class="category-header">
+                        <span>Omni-Source Understanding</span>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="sub-category-container">
+                        <span class="filter-tag" data-attribute="Multimodal Alignment">Multimodal Alignment</span>
+                        <span class="filter-tag" data-attribute="Source Discrimination">Source Discrimination</span>
+                        <span class="filter-tag" data-attribute="Emotion Recognition">Emotion Recognition</span>
+                        <span class="filter-tag" data-attribute="Scene Understanding">Scene Understanding</span>
+                    </div>
+                </div>
+                <!-- 主类别 3 -->
+                <div class="main-category">
+                    <div class="category-header">
+                        <span>Contextual Understanding</span>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="sub-category-container">
+                        <span class="filter-tag" data-attribute="Anomaly Context Understanding">Anomaly Context Understanding</span>
+                        <span class="filter-tag" data-attribute="Misleading Context Understanding">Misleading Context Understanding</span>
+                        <span class="filter-tag" data-attribute="Proactive Output">Proactive Output</span>
+                        <span class="filter-tag" data-attribute="Sequential Question Answering">Sequential Question Answering</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Model Response</h3>
+            <!-- <div class="model-container">
+                <span class="model-tag active" data-model="GPT-4o">GPT-4o</span>
+                <span class="model-tag active" data-model="Claude 3.5 sonnet">Claude 3.5 sonnet</span>
+                <span class="model-tag active" data-model="Gemini 1.5pro">Gemini 1.5pro</span>
+                <span class="model-tag active" data-model="LLaVA-OneVision">LLaVA-OneVision</span>
+                <span class="model-tag active" data-model="MiniCPM-V 2.6">MiniCPM-V 2.6</span>
+            </div> -->
+
+            <div class="main-category">
+                <div class="category-header">
+                    <span>Model Response</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="sub-category-container">
+                    <span class="model-tag active" data-model="GPT-4o">GPT-4o</span>
+                    <span class="model-tag active" data-model="Claude 3.5 sonnet">Claude 3.5 sonnet</span>
+                    <span class="model-tag active" data-model="Gemini 1.5pro">Gemini 1.5pro</span>
+                    <span class="model-tag active" data-model="LLaVA-OneVision">LLaVA-OneVision</span>
+                    <span class="model-tag active" data-model="MiniCPM-V 2.6">MiniCPM-V 2.6</span>
+                    <span class="model-tag active" data-model="Qwen2-VL">Qwen2-VL</span>
+                    <span class="model-tag active" data-model="InternVL2">	InternVL2</span>
+                    <span class="model-tag active" data-model="Kangaroo">Kangaroo</span>
+                    <span class="model-tag active" data-model="LongVA">LongVA</span>
+                    <span class="model-tag active" data-model="VILA-1.5">VILA-1.5</span>
+                    <span class="model-tag active" data-model="Video-CCAM">Video-CCAM</span>
+                    <span class="model-tag active" data-model="VideoLLaMA 2">VideoLLaMA 2</span>
+                    <span class="model-tag active" data-model="LLaVA-NEXT-Video">LLaVA-NEXT-Video</span>
+                </div>
+            </div>
+
+            <!-- <div class="model-container">
+                <span class="model-tag active" data-model="GPT-4o">GPT-4o</span>
+                <span class="model-tag active" data-model="Claude 3.5 sonnet">Claude 3.5 sonnet</span>
+                <span class="model-tag active" data-model="Gemini 1.5pro">Gemini 1.5pro</span>
+                <span class="model-tag active" data-model="LLaVA-OneVision">LLaVA-OneVision</span>
+                <span class="model-tag active" data-model="MiniCPM-V 2.6">MiniCPM-V 2.6</span>
+            </div> -->
+        </div>
+        
+        <!-- 视频容器 -->
+        <div class="video-container">
+            <div class="video-player-container">
+                <!-- 视频播放器 -->
+                <video id="video" width="800" height="450">
+                    <source src="" type="video/mp4">
+                    您的浏览器不支持 HTML5 视频。
+                </video>
+                <div id="custom-controls">
+                    <button id="play-pause" class="control-button">
+                        <img id="play-pause-icon" src="icons/play.png" alt="Play">
+                    </button>
+                    <div id="progress-container">
+                        <div id="progress-bar"></div>
+                        <div id="progress-handle"></div> 
+                        <div id="markers"></div>
+                    </div>
+                    <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+                </div>
+
+                <!-- 问题弹出框 -->
+                <div id="question-popup" class="popup">
+                    <p id="question-text"></p>
+                    <ul id="options-list" class="options"></ul>
+                    <!-- 模型回复 -->
+                    <div id="model-replies"></div>
+                </div>
+            </div>
+            <!-- 视频列表 -->
+            <div class="video-list">
+                <h3>Video List</h3>
+                <div id="video-thumbnails" class="video-thumbnails">
+                    <!-- 视频缩略图将动态生成 -->
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </div>
+</body>
+</html>

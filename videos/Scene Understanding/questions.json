@@ -1,0 +1,82 @@
+[
+    {
+        "task_type": "Scene Understanding",
+        "question": "Please describe the scene that just occurred in the video?",
+        "time_stamp": "00:01:59",
+        "answer": "C",
+        "options": [
+            "A. A player in a light blue shirt and a player in a red shirt collided in a fight for the soccer ball, in which the player in the light blue shirt kicked the ball, after which both players fell on the field, and the narrator said 'Vardyol came upon it and was surely brought down penalty.'.",
+            "B. A player in a light blue jersey is taking a penalty, he shoots to the left of the goal, the keeper in a yellow jersey dives to the right and the ball goes in, after which the commentator says 'Harland scores very very comfortably.'.",
+            "C. A player in a light blue jersey headed a ball from a teammate towards the goal, but it was caught by the goalkeeper in a yellow jersey, and the narrator shouted 'Harland's header, great save.'.",
+            "D. A player in a red jersey headed a ball from a teammate towards the goal, but it was caught by the goalkeeper in a yellow jersey, and the narrator shouted 'Harland's header, great save.'."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Scene Understanding_sample_23_1",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Scene Understanding",
+        "question": "Please describe the scene that just occurred in the video?",
+        "time_stamp": "00:03:02",
+        "answer": "D",
+        "options": [
+            "A. A player in a light blue jersey jumps onto the shoulders of a player in a green jersey, and using the shoulders of the player in the red jersey to support himself, he puts the ball into the goal, and the narrator says 'Harland at the far, two nil.'.",
+            "B. A player in a light blue jersey is taking a penalty, he shoots to the left of the goal, the keeper in a yellow jersey dives to the right and the ball goes in, after which the commentator says 'Harland scores very very comfortably.'.",
+            "C. A player in a light blue jersey headed a ball from a teammate towards the goal, but it was caught by the goalkeeper in a yellow jersey, and the narrator shouted 'Harland's header, great save.'.",
+            "D. A player in a light blue jersey jumps onto the shoulders of a player in a red jersey, and using the shoulders of the red jersey player to support himself, he puts the ball into the goal, and the narrator says 'Harland at the far, two nil.'."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Scene Understanding_sample_23_2",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "D"
+    },
+    {
+        "task_type": "Scene Understanding",
+        "question": "Please describe the scene that just occurred in the video?",
+        "time_stamp": "00:04:02",
+        "answer": "A",
+        "options": [
+            "A. A player in a light blue uniform dribbles toward the goal, a player in a red uniform chases after the player in light blue, and finally the two men fall in a scramble, and the narrator says, 'Chance for a hat-trick, oh that's surely a penalty.'.",
+            "B. A player in a red uniform dribbles toward the goal, a player in a light blue uniform chases the player in a light blue uniform, and finally the two men fall in a scramble, and the narrator says, 'Chance for a hat-trick, oh that's surely a penalty.'.",
+            "C. A player in a light blue jersey headed a ball from a teammate towards the goal, but it was caught by the goalkeeper in a yellow jersey, and the narrator shouted 'Harland's header, great save.'.",
+            "D. A player in a light blue jersey jumps onto the shoulders of a player in a red jersey, and using the shoulders of the red jersey player to support himself, he puts the ball into the goal, and the narrator says 'Harland at the far.'."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Scene Understanding_sample_23_3",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "I will not reproduce or paraphrase any copyrighted material. Based on the information provided in the images, the correct answer appears to be:\n\nA\n\nThis option accurately describes the scene shown in the soccer match images, with players in light blue and red uniforms competing. However, I cannot confirm the exact narration or dialogue, as that was not evident from the visual information alone."
+    },
+    {
+        "task_type": "Scene Understanding",
+        "question": "Please describe the scene that just occurred in the video?",
+        "time_stamp": "00:05:31",
+        "answer": "B",
+        "options": [
+            "A. A player in a light blue uniform dribbles toward the goal, a player in a red uniform chases after the player in light blue, and finally the two men fall in a scramble, and the narrator says, 'Chance for a hat-trick, oh that's surely a penalty.'.",
+            "B. A player in a light blue jersey took a shot that was parried by a player in a yellow jersey, another player in a light blue jersey and a player in a red jersey fought for the parried ball and the player in the red jersey kicked the ball right out of the field, and the narrator said, 'Finds Foden and Foden's shot was going into the corner.'.",
+            "C. A player in a red jersey took a shot that was pounced on by a player in a yellow jersey, another player in a light blue jersey and a player in a red jersey fought for the pounced ball and the player in the red jersey kicked the ball right out of the field, the narrator said 'finds Foden and Foden's shot was going into the corner and Jose Saar parried it away.'.",
+            "D. A player in a light blue jersey jumps onto the shoulders of a player in a red jersey, and using the shoulders of the red jersey player to support himself, he puts the ball into the goal, and the narrator says 'Harland at the far.'."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Scene Understanding_sample_23_4",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Scene Understanding",
+        "question": "Please describe the scene that just occurred in the video?",
+        "time_stamp": "00:06:12",
+        "answer": "D",
+        "options": [
+            "A. A player in a light blue uniform dribbles toward the goal, a player in a red uniform chases after the player in light blue, and finally the two men fall in a scramble, and the narrator says, 'Chance for a hat-trick, oh that's surely a penalty.'.",
+            "B. A player in a light blue jersey took a shot that was parried by a player in a yellow jersey, another player in a light blue jersey and a player in a red jersey fought for the parried ball and the player in the red jersey kicked the ball right out of the field, and the narrator said, 'Finds Foden and Foden's shot was going into the corner.",
+            "C. A player in a light blue jersey passes the ball to another goalie in a green jersey, who tries to jump up and grab the ball, touching it but failing to grab it, another player in a red jersey receives the ball and shoots it straight at the goal, and the announcer says 'Edison parries it and Wolves have scored.'.",
+            "D. A player in a red jersey passes the ball to another goalie in a green jersey, who tries to jump up and grab the ball, touching it but failing to grab it, another player in a red jersey receives the ball and shoots it straight at the goal, and the announcer says 'Edison parries it and Wolves have scored.'."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Scene Understanding_sample_23_5",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "A"
+    }
+]

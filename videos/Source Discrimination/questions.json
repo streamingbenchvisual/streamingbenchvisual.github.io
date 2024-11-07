@@ -1,0 +1,82 @@
+[
+    {
+        "task_type": "Source Discrimination",
+        "question": "Who just said 'Oh my God.'?",
+        "time_stamp": "00:00:57",
+        "answer": "D",
+        "options": [
+            "A. A brown-haired male wearing a dark green blazer with a white shirt, black vest, blue tie and black pants.",
+            "B. a brown-haired man wearing a black blazer with a white turtleneck and black pants.",
+            "C. a brunette female wearing a black, deep V-neck dress and a necklace with gold stones.",
+            "D. a brunette female wearing a pink blouse and black pants with a black belt with a silver square buckle and multiple necklaces."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Source Discrimination_sample_1_1",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "D"
+    },
+    {
+        "task_type": "Source Discrimination",
+        "question": "Who just said 'Good for you.'?",
+        "time_stamp": "00:01:20",
+        "answer": "B",
+        "options": [
+            "A. A brown-haired male wearing a dark green blazer with a white shirt, black vest, blue tie and black pants.",
+            "B. a brown-haired man wearing a black blazer with a white turtleneck and black pants.",
+            "C. a brunette female wearing a black, deep V-neck dress and a necklace with gold stones.",
+            "D. a brunette female wearing a pink blouse and black pants with a black belt with a silver square buckle and multiple necklaces."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Source Discrimination_sample_1_2",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "C"
+    },
+    {
+        "task_type": "Source Discrimination",
+        "question": "Who just said 'You're right, l'm sorry.'?",
+        "time_stamp": "00:02:34",
+        "answer": "B",
+        "options": [
+            "A. A brown-haired male wearing a dark green blazer with a white shirt, black vest, blue tie and black pants.",
+            "B. a brown-haired man wearing a black blazer with a white turtleneck and black pants.",
+            "C. a brunette female wearing a black, deep V-neck dress and a necklace with gold stones.",
+            "D. a brunette female wearing a pink blouse and black pants with a black belt with a silver square buckle and multiple necklaces."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Source Discrimination_sample_1_3",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Source Discrimination",
+        "question": "Who just said 'Can we have three chocolate mousses to go, please?'?",
+        "time_stamp": "00:02:40",
+        "answer": "C",
+        "options": [
+            "A. A brown-haired male wearing a dark green blazer with a white shirt, black vest, blue tie and black pants.",
+            "B. a brown-haired man wearing a black blazer with a white turtleneck and black pants.",
+            "C. a brunette female wearing a black, deep V-neck dress and a necklace with gold stones.",
+            "D. a brunette female wearing a pink blouse and black pants with a black belt with a silver square buckle and multiple necklaces."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Source Discrimination_sample_1_4",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Source Discrimination",
+        "question": "Who just said 'a stupid man who left us his credit card'?",
+        "time_stamp": "00:03:36",
+        "answer": "D",
+        "options": [
+            "A. a brown-haired man wearing a black blazer with a white turtleneck and black pants.",
+            "B. a brunette female wearing a black, deep V-neck dress and a necklace with gold stones.",
+            "C. a brunette female wearing a pink blouse and black pants with a black belt with a silver square buckle and multiple necklaces.",
+            "D. A brown-haired male wearing a dark green blazer with a white shirt, black vest, blue tie and black pants."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Source Discrimination_sample_1_5",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "C"
+    }
+]

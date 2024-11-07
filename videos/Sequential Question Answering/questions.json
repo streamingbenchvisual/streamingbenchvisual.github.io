@@ -1,0 +1,82 @@
+[
+    {
+        "task_type": "Related Context Understanding",
+        "question": "What is the person in the center of the video wearing?",
+        "time_stamp": "00:00:09",
+        "answer": "A",
+        "options": [
+            "A black jacket over a white shirt.",
+            "A navy blue jacket over a gray shirt.",
+            "A dark brown jacket over a white shirt.",
+            "A black sweater over a white t-shirt."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Related_Context_Understanding_sample_1_1",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "A"
+    },
+    {
+        "task_type": "Related Context Understanding",
+        "question": "Who is the person mentioned in the previous question interacting with right now?",
+        "time_stamp": "00:00:26",
+        "answer": "C",
+        "options": [
+            "A bald man wearing round glasses and a light-colored blazer over a dark shirt.",
+            "A woman with long blonde hair wearing a dark-colored top.",
+            "A man with short dark hair and wear a dark-colored shirt.",
+            "A woman with long blonde hair wearing a strapless, patterned dress."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Related_Context_Understanding_sample_1_2",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "C"
+    },
+    {
+        "task_type": "Related Context Understanding",
+        "question": "What actions did the two individuals mentioned in the previous question just take?",
+        "time_stamp": "00:04:33",
+        "answer": "B",
+        "options": [
+            "They exchanged a nod.",
+            "They bumped fists.",
+            "They shook hands.",
+            "They gave each other a high-five."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Related_Context_Understanding_sample_1_3",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "C"
+    },
+    {
+        "task_type": "Related Context Understanding",
+        "question": "What is the current outfit of the man mentioned in the first question?",
+        "time_stamp": "00:05:32",
+        "answer": "B",
+        "options": [
+            "A light-colored shirt and dark-colored pants.",
+            "A dark-colored shirt and light-colored pants",
+            "A dark-colored jacket and jeans.",
+            "A light-colored sweater and khaki shorts."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Related_Context_Understanding_sample_1_4",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "C"
+    },
+    {
+        "task_type": "Related Context Understanding",
+        "question": "What is the person mentioned in the previous question holding in their hand right now?",
+        "time_stamp": "00:09:06",
+        "answer": "C",
+        "options": [
+            "A black picture frame with white edges, containing three playing cards.",
+            "A white picture frame with silver edges, containing five playing cards.",
+            "A white picture frame with black edges, containing four playing cards.",
+            "A wooden picture frame with gold edges, containing four photographs."
+        ],
+        "temporal_clue_type": "Prior",
+        "question_id": "Related_Context_Understanding_sample_1_5",
+        "frames_required": "multiple",
+        "Claude-3.5 Sonnet": "D"
+    }
+]

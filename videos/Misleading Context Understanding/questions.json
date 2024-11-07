@@ -1,0 +1,82 @@
+[
+    {
+        "task_type": "Misleading Context Recognition",
+        "question": "How many cards and how many suits are on the table now?",
+        "time_stamp": "00:00:33",
+        "answer": "B",
+        "options": [
+            "A. There are three pink cards and one playing card, the playing card is Diamond 2.",
+            "B. There are three pink cards and one playing card, the playing card is Diamond 3.",
+            "C. There are three pink cards and two playing cards, Diamond 3 and Diamond 2 respectively.",
+            "D. There are four pink cards."
+        ],
+        "question_id": "Misleading Context Recognition_sample_1_1",
+        "frames_required": "single",
+        "temporal_clue_type": "Prior",
+        "Claude-3.5 Sonnet": "A"
+    },
+    {
+        "task_type": "Misleading Context Recognition",
+        "question": "How many cards and suits are there on the table now?",
+        "time_stamp": "00:00:52",
+        "answer": "D",
+        "options": [
+            "A. There is a pile of pink cards being dealt up and down",
+            "B. There are three pink playing cards",
+            "C. There are three pink cards and one playing card, the playing card is a diamond 3",
+            "D. There are three pink cards and two playing cards, one diamond 3 and one red heart 3."
+        ],
+        "question_id": "Misleading Context Recognition_sample_1_2",
+        "frames_required": "single",
+        "temporal_clue_type": "Prior",
+        "Claude-3.5 Sonnet": "D"
+    },
+    {
+        "task_type": "Misleading Context Recognition",
+        "question": "What's on the table now?",
+        "time_stamp": "00:01:10",
+        "answer": "A",
+        "options": [
+            "A. There are five playing cards, the 3 of diamonds, the 4 of clubs, the 5 of hearts, the 6 of spades, and the 7 of diamonds, and the text below reads: straight.",
+            "B. There are five playing cards, the 3 of diamonds, the 4 of clubs, the 5 of hearts, the 6 of spades, and the 7 of diamonds, and the text below reads: five card groups.",
+            "C. there are five playing cards, the 4 of hearts, the 4 of spades, the 5 of spades, the 5 of diamonds, and the 5 of clubs.",
+            "D. there are two playing cards, a four of hearts and a four of spades."
+        ],
+        "question_id": "Misleading Context Recognition_sample_1_3",
+        "frames_required": "single",
+        "temporal_clue_type": "Prior",
+        "Claude-3.5 Sonnet": "A"
+    },
+    {
+        "task_type": "Misleading Context Recognition",
+        "question": "How many cards, and of how many suits, are currently on the table?",
+        "time_stamp": "00:01:28",
+        "answer": "D",
+        "options": [
+            "A. There are five playing cards, the 8 of diamonds, the 8 of clubs, the 8 of hearts, the 8 of spades, and the jack of diamonds.",
+            "B. There are five playing cards, the 4 of diamonds, the 6 of diamonds, the 8 of diamonds, the 2 of diamonds, and the Q of diamonds.",
+            "C. There are five playing cards, the nine of spades, the ten of spades, the jack of spades, the queen of spades, and the king of spades.",
+            "D. There are five playing cards, the 10 of hearts, the 10 of diamonds, the 10 of clubs, the 9 of diamonds, and the 9 of clubs."
+        ],
+        "question_id": "Misleading Context Recognition_sample_1_4",
+        "frames_required": "single",
+        "temporal_clue_type": "Prior",
+        "Claude-3.5 Sonnet": "B"
+    },
+    {
+        "task_type": "Misleading Context Recognition",
+        "question": "How many cards and how many suits are on the table now?",
+        "time_stamp": "00:02:30",
+        "answer": "D",
+        "options": [
+            "A. There is one playing card, the 4 of spades.",
+            "B. There are two playing cards, the 4 of diamonds and the 4 of hearts.",
+            "C. There are three playing cards, the 3 of Spades, the 3 of Hearts, and the 3 of Clubs.",
+            "D. There are five playing cards, the 4 of hearts, the 5 of clubs, the 6 of diamonds, the 7 of clubs, and the 8 of hearts."
+        ],
+        "question_id": "Misleading Context Recognition_sample_1_5",
+        "frames_required": "single",
+        "temporal_clue_type": "Prior",
+        "Claude-3.5 Sonnet": "A"
+    }
+]
